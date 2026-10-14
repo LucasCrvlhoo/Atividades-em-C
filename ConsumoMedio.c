@@ -2,29 +2,25 @@
 
 
 int main() 
-
 { 
-
     float consumo, soma = 0, media; 
-
     int i; 
 
-    for(i = 1; i <= 5; i++){ 
+for(i = 1; i <= 5; i++){ 
 
-        printf("Digite o consumo do morador %d (m3):",i); 
-
-        scanf("%f", &consumo); 
+    printf("Digite o consumo do morador %d (m3):",i); 
+    scanf("%f", &consumo); 
       
-    if(consumo <= 20){ 
+if(consumo <= 20){ 
 
-        printf("Consumo dentro do limite\n"); 
+    printf("Consumo dentro do limite\n"); 
 
-    }else{ 
+    }
+else{ 
 
-        printf("Consumo acima do limite\n"); 
-
+    printf("Consumo acima do limite\n"); 
+        
     } 
-
         soma = soma + consumo; 
 } 
 
