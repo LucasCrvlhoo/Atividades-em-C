@@ -3,7 +3,6 @@
 int main() { 
 
     float nota, soma = 0, media; 
-
     int i; 
 
     for(i = 1; i <= 10; i++){ 
