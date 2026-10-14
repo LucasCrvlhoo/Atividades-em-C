@@ -2,7 +2,7 @@
 
 int main() { 
 
-int passos, total = 0, horas = 0; 
+    int passos, total = 0, horas = 0; 
 
   while (total <10000) { 
 
