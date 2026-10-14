@@ -1,12 +1,11 @@
 #include <stdio.h> 
 
-
 int main() {
     
     float consumo, soma = 0, media; 
     int i; 
 
-for(i = 1; i <= 5; i++){ 
+for(i = 1; i <= 5; i++){
 
     printf("Digite o consumo do morador %d (m3):",i); 
     scanf("%f", &consumo); 
